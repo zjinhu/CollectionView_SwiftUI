@@ -11,12 +11,10 @@ import CollectionView_SwiftUI
 struct ContentView: View {
     @State
     var items: OrderedDictionary<Testing.Sections, [Testing.Item]> = .gridData // .dummyData()
-    @State var selection: Testing.Item? = nil
-    
+
     var body: some View {
         
         CollectionView($items,
-                       selection: $selection,
                        layout: gridLayout(), // compositionalLayout()
                        cellBackground: Color.gray) { indexPath, item in
             VStack {
@@ -24,8 +22,11 @@ struct ContentView: View {
                 Text(item.title)
                 Text(item.subtitle)
             }
-        }
-                       .padding(.horizontal, 10)
+            
+        }.onSelect({ collectionView, indexPath in
+            print("\(indexPath.row)")
+        })
+        .padding(.horizontal, 10)
         
     }
 
