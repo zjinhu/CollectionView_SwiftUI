@@ -7,43 +7,41 @@
 ![Swift 5.0+](https://img.shields.io/badge/Swift-5.0%2B-orange.svg)
 ![SwiftUI 3.0+](https://img.shields.io/badge/SwiftUI-3.0%2B-orange.svg)
 
-## [中文说明](https://github.com/zjinhu/CollectionView_SwiftUI/blob/main/README_ZH.md)
-
-## Example
+## 例子
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Usage
+## 用法
 
 
-## Install
+## 安装
 
-### Cocoapods
+### cocoapods
 
-1. Add `pod 'CollectionView_SwiftUI'` in Podfile
+1.在 Podfile 中添加 `pod 'CollectionView_SwiftUI'`
 
-2. Execute `pod install or pod update`
+2.执行 `pod install 或 pod update`
 
-3. Import `import CollectionView_SwiftUI`
+3.导入 `import CollectionView_SwiftUI`
 
 ### Swift Package Manager
 
-Starting from Xcode 11, the Swift Package Manager is integrated, which is very convenient to use. CollectionView_SwiftUI also supports integration via Swift Package Manager.
+从 Xcode 11 开始，集成了 Swift Package Manager，使用起来非常方便。CollectionView_SwiftUI 也支持通过 Swift Package Manager 集成。
 
-Select `File > Swift Packages > Add Pacakage Dependency` in Xcode's menu bar, and enter in the search bar
+在 Xcode 的菜单栏中选择 `File > Swift Packages > Add Pacakage Dependency`，然后在搜索栏输入
 
-`https://github.com/zjinhu/CollectionView_SwiftUI`, you can complete the integration
+`https://github.com/zjinhu/CollectionView_SwiftUI`，即可完成集成
 
-### Manual Install
+### 手动集成
 
-CollectionView_SwiftUI also supports manual Install, just drag the CollectionView_SwiftUI folder in the Sources folder into the project that needs to be installed
+CollectionView_SwiftUI 也支持手动集成，只需把Sources文件夹中的CollectionView_SwiftUI文件夹拖进需要集成的项目即可
 
 
-## Author
+## 作者
 
 hu, 814030966@qq.com
 
-## More tools to speed up APP development
+## 更多砖块工具加速APP开发
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jackiehu&repo=SwiftMediator&theme=radical&locale=cn)](https://github.com/jackiehu/SwiftMediator)
 
@@ -54,6 +52,8 @@ hu, 814030966@qq.com
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jackiehu&repo=SwiftMesh&theme=radical&locale=cn)](https://github.com/jackiehu/SwiftMesh)
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jackiehu&repo=SwiftNotification&theme=radical&locale=cn)](https://github.com/jackiehu/SwiftNotification)
+
+
 
 
 ## 许可
